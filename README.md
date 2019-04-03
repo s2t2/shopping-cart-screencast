@@ -1,5 +1,7 @@
 # Shopping Cart Project
 
+[![Build Status](https://travis-ci.com/s2t2/shopping-cart-screencast.svg?branch=master)](https://travis-ci.com/s2t2/shopping-cart-screencast)
+
 [Project Description](https://github.com/prof-rossetti/georgetown-opim-243-201901/blob/master/projects/shopping-cart.md#requirements)
 
 ## Prerequisites
@@ -20,4 +22,18 @@ Run the program:
 
 ```py
 python shopping_cart.py
+```
+
+## Testing
+
+Install the `pytest` package, perhaps within a virtual environment:
+
+```sh
+pip install pytest
+```
+
+Run tests:
+
+```py
+pytest
 ```
